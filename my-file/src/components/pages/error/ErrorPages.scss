@@ -1,0 +1,50 @@
+.error{
+    // width: 100%;
+    height: 100vh;
+    background: var(--sign-full-bag-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    // text-align: center;
+    align-items: center;
+    // margin-top: 10%;
+    .numbers{
+        font-style: normal;
+        font-weight: 700;
+        font-size: 100px;
+        color: var(--sign-info-color);
+        margin-bottom: 10px;
+    }
+    .found{
+        font-style: normal;
+        font-weight: 600;
+        font-size: 22px;
+        margin-bottom: 12px;
+        color: var(--sign-info-color);
+
+    }
+    .maybe{
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        color: #2B3844;
+        margin-bottom: 3px;
+        color: var(--sign-info-color);
+
+    }
+    .button{
+        
+
+            font-weight: 600;
+			font-size: 16px;
+			line-height: 24px;
+			color: var(--sign-read-color);
+			margin-top: 35px;	
+			padding: 13px 32px;
+			border:none;
+			border: 1px solid var(--sign-read-color);
+			border-radius: 7px;
+			text-decoration: none;
+    }
+    
+}

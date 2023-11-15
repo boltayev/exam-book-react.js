@@ -1,0 +1,319 @@
+.sign_pages{
+    background-color: var(--sign-full-bag-color);
+    
+    padding: 20px 40px;
+
+    .back{
+        display: flex;
+        gap: 12px;
+        margin-top: 20px;
+        margin-bottom: 41px;
+        margin-left: 30px;
+        .back_to{
+            font-style: normal;
+            font-weight: 400;
+            font-size: 15px;
+            color: #2B3844;
+            text-decoration: none;
+
+        }
+
+    }
+
+    .three_block{
+        // border: 1px solid red;
+        display: flex;
+        gap: 80px;
+        // width: 273px;
+        // height: 405px;
+        // background: rgb(194, 240, 104);
+        padding: 24px 32px;
+        margin-bottom: 67px;
+        .book_share{
+            // border: 1px solid red;
+            padding: 24px 32px;
+            background: var(--sign-bag-color);
+            .share_me{
+                display: flex;
+                justify-content: center;
+                gap: 38px;
+                margin-top: 35px;
+                    img{
+                        width: 19px;
+                        height: 17px;
+                    }
+
+                    span{
+                        font-weight: 700;
+                        font-size: 11px;
+                        display: flex;
+                        align-items: center;
+                        color:var(--sign-share-color);
+                        text-align: center;
+                    }
+
+
+
+
+                .messages{
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    gap: 6px;
+            
+                }
+
+                .notes{
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    gap: 6px;
+                }
+
+                .share{
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    gap: 6px;
+                }
+            }
+        }
+
+        .comentary{
+            // width: 700px;
+            // background: rgb(233, 233, 169);
+            h1{
+                font-style: normal;
+                font-weight: 400;
+                font-size: 35px;
+                color:var(--p-color);
+                margin-bottom: 18px;
+            }
+            .name{
+                font-weight: 400;
+                font-size: 15px;
+                color:var(--p-color);
+                margin-bottom: 5px;
+            }
+            .second{
+                font-style: normal;
+                font-weight: 400;
+                font-size: 15px;
+                color: #9A9A9A;
+                margin-bottom: 22px;
+            }
+            .star{
+                display: flex;
+                margin-bottom: 30px;
+                gap: 20px;
+                .rating{
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 14px;
+                    color:var(--p-color);
+                }
+                .reading{
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 14px;
+                    color:var(--p-color);
+
+                }
+            }
+            .aviabilet_status{
+                display: flex;
+                gap: 42px;
+                margin-bottom: 43px;
+                .aviabilet{
+                    display: flex;
+                    flex-direction: column;
+                    gap: 12px;
+                    p{
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 15px;
+                        color:var(--p-color);
+
+                    }
+                    h3{
+                        font-style: normal;
+                        font-weight: 700;
+                        font-size: 14px;
+                        color:var(--p-color);
+                    }
+                    .hard{
+                        display: flex;
+                    }
+                    .he_book{
+                        display: flex;
+                    }
+                    .audio_book{
+                        display: flex;
+                    }
+                }
+
+                .status{
+                    h3{
+                        font-style: normal;
+                        font-weight: 700;
+                        font-size: 14px;
+                        color:var(--p-color);
+                        margin-bottom: 16px;
+                    }
+                    .shelf{
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        width: 85px;
+                        height: 17px;
+                        background: rgb(149, 243, 121);
+                        margin-bottom: 17px;
+                        padding:15px 10px;
+                        border-radius: 5px;
+                    }
+                    .locatsy{
+                        display: flex;
+                        gap: 10px;
+                        .loc{
+                            color:var(--p-color);                            
+                        }
+                    }
+                }
+            }
+            .borro{
+                
+                display: flex;
+                gap: 38px;
+                .borrow{
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    width: 180px;
+                    height: 61px;
+                    background: #F27851;
+                    border-radius: 5px;
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 20px;
+                    text-align: center;
+                    color: #FFFFFF;
+
+                }
+                .rednow{
+                    display: flex;
+                    gap: 1px;
+                    .red{
+                        // width: 209px;
+                        // height: 61px;
+                        background: green;
+                        color: #fff;
+                        font-weight: 700;
+                        font-size: 20px;
+                        display: flex;
+                        align-items: center;
+                        text-align: center;
+                        color: #FFFFFF;
+                        padding: 6px 26px;
+                        border-radius: 5px;
+                        border: 0;
+                    }
+                    .pots{
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        width: 66px;
+                        height: 61px;
+                        background: green;
+                        border-radius: 5px;
+                        border: 0;
+                    }
+
+                }
+
+            }
+
+        }
+        .about_yours{
+            width: 445px;
+            height: 299px;
+            // border: 1px solid red;
+            padding: 30px 30px;
+            background:var(--sign-bag-color);
+            border-radius: 10px;
+            .yours{
+                display: flex;
+                justify-content: space-between;
+                margin-bottom: 21px;
+                .namee{
+                    display: flex;
+                    flex-direction: column;
+                    gap: 40px;
+                    .about{
+                        font-style: normal;
+                        font-weight: 600;
+                        font-size: 24px;
+                        color: var(--sign-read-color);
+                        span{
+                            color: var(--p-color);
+                            
+                        }
+                    }
+                    .man_name{
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 20px;
+                        color: var(--p-color);
+
+                    }
+                }
+
+            }
+            p{
+                color: var(--p-color);
+            }
+        }
+
+    }
+
+    .paragrif{
+        padding: 30px 30px;
+        background:var(--sign-bag-color);
+        margin-bottom: 90px;
+        h4{
+            font-style: normal;
+            font-weight: 600;
+            font-size: 24px;
+            color: var(--sign-read-color);
+            margin-bottom: 28px;
+        }
+        p{
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 128.52%;
+            color: var(--p-color);
+        }
+    }
+
+    .bottom_books{
+        margin-bottom: 100px;
+        // background: red;
+        // background:var(--sign-bag-color);
+
+        h2{
+            color: var(--sign-read-color);
+            margin-bottom: 30px;
+            span{
+                color: var(--p-color);
+            }
+        }
+        .books_small{
+            display: flex;
+            gap: 50px;
+        }
+    }
+
+
+
+
+}

@@ -1,0 +1,22 @@
+main{
+    display: flex;
+            background: var(--sign-full-bag-color);
+    // align-items: center;
+    // justify-content: center;
+    .main_container{
+        display: flex;
+            // background: var(-sign-full-bag-color);
+        .books_block{
+            // display: flex;
+            // background: green;
+            // background: var(-sign-full-bag-color);
+            .books{
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr 1fr;
+                align-items: center;
+                gap: 24px;
+                
+            }
+        }
+    }
+}

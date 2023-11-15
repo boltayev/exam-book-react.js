@@ -1,0 +1,27 @@
+.header_block{
+    width: 100ww;
+    display: flex;
+    justify-content: space-between;
+    background:var(--sign-bag-color);
+    padding: 26px 66px;
+    // border-bottom: 1px solid rgb(109, 100, 100);
+    img{
+        margin-top: 9px;
+    }
+    nav{
+        display: flex;
+        gap: 32px;
+        img{
+            margin-top: 9px;
+        }
+        .button{
+            padding: 14px 40px;
+            background: var(--sign-read-color);
+            border-radius: 6px;
+            color: #fff;
+            border: 0;
+            cursor: pointer;
+            text-decoration: none;
+        }
+    }
+}

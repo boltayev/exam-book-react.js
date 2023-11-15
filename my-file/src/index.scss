@@ -1,0 +1,34 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed&family=Bellefair&family=Caveat:wght@700&family=DM+Sans:wght@400;500;700&family=Epilogue:wght@500;700&family=Fuzzy+Bubbles:wght@400;700&family=Inter:wght@400;700&family=Josefin+Sans:wght@400;700&family=Kumbh+Sans:wght@400;700&family=Manrope:wght@800&family=Noto+Sans:wght@400;600&family=Nunito+Sans:wght@600;800&family=Overpass:wght@400;700&family=Pacifico&family=Plus+Jakarta+Sans:wght@500;700&family=Poppins:ital,wght@0,400;0,700;1,400;1,500;1,600&family=Red+Hat+Display:wght@500;900&family=Red+Hat+Text:wght@400;700&family=Roboto:wght@400;500;700&family=Silkscreen&family=Space+Mono:wght@400;700&display=swap');*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Inter';
+  
+}
+*{
+  margin: 0;
+  padding: 0; 
+  box-sizing: border-box;
+  user-select: none;
+}
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: var (--sign-full-bag-color);
+
+}
+
+.container{
+  width: 1312px;
+  margin: 0 auto;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
