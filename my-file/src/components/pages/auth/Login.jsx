@@ -27,17 +27,6 @@ function Login(){
 		e.preventDefault()
         
 
-		// if (email === 'elbekboltayev@gmail.com' && password === '12345678') {
-		// 	navigate('/home')
-		// 	localStorage.setItem(
-		// 		'accessToken',
-		// 		'7eadfjahehcfq7jkdafkcvzxvbajhznxbvcayu032432r**-/234/v*cv'
-		// 	)
-		// 	setError('')
-		// } else {
-		// 	setError('Xatolik yuz berdi')
-		// }
-
         let req = await fetch('https://reqres.in/api/login', {
 			method: 'POST',
 			headers: { 'Content-Type': 'application/json',
